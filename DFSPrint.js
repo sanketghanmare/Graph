@@ -14,6 +14,14 @@ const dfsPrint = (graph, source) => {
 
 }
 
+const dfsPrintRecursion = (graph, source) => {
+    console.log(source)
+    for (let neighbor of graph[source]){
+        dfsPrintRecursion(graph, neighbor)
+    }
+
+}
+
 const graph = {
     a: ['b', 'c'],
     b: ['d'],
@@ -23,4 +31,5 @@ const graph = {
     f: []
 };
 
-dfsPrint(graph, 'a')
+// dfsPrint(graph, 'a')
+dfsPrintRecursion(graph, 'a')
