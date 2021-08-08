@@ -28,3 +28,9 @@ const graph = {
 };
 
 console.log(hasPathBFS(graph, 'f', 'k'))
+
+// Throughout my professional and academic carrier, I worked on developing backend systems,
+//     frontend applications, Microservices, wrote test cases to test what I built to catch,
+// Designed POC, and built prototypes of applications for demo purposes and while doing all these I
+// steadily increased my tech stack, and upgraded my over skill sets and learned a lot of lessons.
+//     My skill set and experience will surely help me to excel in the role.
